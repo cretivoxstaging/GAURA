@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Platypi", serif;
+      font-weight: 300;
+      background: transparent;
+}
+
+.bg-gaura-second{
+    @apply bg-[#D8C8AC] text-[#7F3924];
+}
+
+.bg-gaura{
+    @apply bg-[#7F3924] text-white;
+}
+
+.text-gaura{
+    @apply text-[#7F3924];
+}
+
+.btn-black{
+    @apply text-[13.5px] border-black border-[1px] text-black leading-[100%] md:py-2 md:px-3 rounded-full bg-transparent transition-all duration-1000 hover:bg-[#7F3924] hover:text-white hover:border-[#7F3924];
+}
+
+.btn-white{
+    @apply text-[13.5px] border-white border-[1px] text-white leading-[100%] md:py-2 md:px-3 rounded-full transition-all duration-1000 hover:bg-[#D8C8AC] hover:text-[#7F3924] hover:border-[#d8c8ac];
+}
+
+.btn-primary{
+    @apply text-[13.5px] border-[#7F3924] border md:py-2 md:px-3 leading-[100%] rounded-full transition-all duration-1000 hover:bg-[#7F3924] hover:text-white hover:border-[#7F3924];
+}
