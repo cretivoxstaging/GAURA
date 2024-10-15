@@ -17,7 +17,7 @@
           <p>Kemang Icon, Jalan Kemang Raya I, <br> Jakarta Selatan 12730</p>
         </div>
         <div class="">
-          <p>(021) 27520002 <br> Email us</p>
+          <p>(021) 27520002 <br>Email us</p>
         </div>
        </div>
       </div>
