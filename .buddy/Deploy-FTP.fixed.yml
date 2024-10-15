@@ -1,16 +1,15 @@
-- pipeline: "Deploy via FTP"
+- pipeline: "Deploy FTP"
   events:
   - type: "PUSH"
     refs:
     - "refs/heads/main"
   fail_on_prepare_env_warning: true
   actions:
-  - action: "npm run generate"
+  - action: "npm run build"
     type: "BUILD"
     docker_image_name: "library/node"
     docker_image_tag: "22"
     execute_commands:
-    - "# yarn install"
     - "npm install"
-    - "npm run generate"
+    - "npm run build"
     shell: "BASH"
